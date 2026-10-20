@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Activity, Apple, ArrowRight, Camera, ChefHat, CheckCircle2, CircleHelp, Clock3, FileText, Flame, HeartPulse, ImagePlus, Leaf, LoaderCircle, Menu, Salad, ShieldCheck, Sparkles, Utensils, Video, X } from 'lucide-react';
 
-const API_BASE = 'http://127.0.0.1:8001';
+const API_BASE = 'https://food-verse-ai-6lii.onrender.com';
 const modules = [
   { id: 'overview', label: 'Overview', icon: Activity, eyebrow: 'YOUR FOOD, UNDERSTOOD', title: 'A smarter way to look at food.', desc: 'Explore nutrition, freshness, kitchen hygiene and meal ideas in one place.', color: 'mint' },
   { id: 'food', label: 'Food Recognition', icon: Apple, eyebrow: 'MULTIMODAL FOOD LENS', title: 'Know what is on your plate.', desc: 'Upload a food photo to explore dish identification and estimated nutrition.', color: 'green' },
